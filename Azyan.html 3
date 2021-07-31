@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Azyan's Html 3</title>
+<link rel="shortcut icon" type="image/jpg" href="yayan.jpg">
+      
+<style>
+
+body{
+background-color:#E0C9E1FF;
+background-size:cover;
+font-family:verdana;
+font-size:20px
+margin:0;
+line-height:24px; 
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: purple;
+  opacity:0.8;
+
+}
+
+li {
+  float: left;
+}
+
+li a, .prflbtn .edubtn .fmlybtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .prflbtn .edubtn .fmlybtn {
+  background-color: black;
+  opacity:0.5;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 25px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: lightblue;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding:25px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 25px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+
+
+<!-- gallery area-->
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+</style>
+</head>
+<body>
+<div class="topnav">
+<ul>
+  <li><a href="file:///C:/Users/User/Desktop/Azyan/IMD%20311/Individual%20Assignment/Azyan.%20html%201.html">Home</a></li>
+
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="prflbtn">About me</a>
+    <div class="dropdown-content">
+      <a href="file:///C:/Users/User/Desktop/Azyan/IMD%20311/Individual%20Assignment/Azyan.%20html%201.html#thirddivision">Hobby</a>
+      <a href="file:///C:/Users/User/Desktop/Azyan/IMD%20311/Individual%20Assignment/Azyan.%20html%201.html#fifthdivision">Education</a>
+      <a href="file:///C:/Users/User/Desktop/Azyan/IMD%20311/Individual%20Assignment/Azyan.%20html%201.html#sixthdivision">Experiences</a>
+    </div>
+</li>
+
+
+  <li class="dropdown">
+  <a href="file:///C:/Users/User/Desktop/Azyan/IMD%20311/Individual%20Assignment/Azyan.%20html%203.html" class="fmlbttn">Family</a>
+    <div class="dropdown-content">
+    </div>
+  </li>
+
+<li class="dropdown">
+  <a href="file:///C:/Users/User/Desktop/Azyan/IMD%20311/Individual%20Assignment/Azyan.%20html%204.html" class="fmlybtn">Friends</a>
+    <div class="dropdown-content">
+    </div>
+  </li>
+
+  <li><a href="file:///C:/Users/User/Desktop/Azyan/IMD%20311/Individual%20Assignment/Azyan.%20html%202.html">Gallery</a></li>
+  <li><a href="file:///C:/Users/User/Desktop/Azyan/IMD%20311/Individual%20Assignment/Azyan.%20html%201.html#seventhdivision">Contact</a></li>
+<div class="search-container">
+
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+   
+    </form>
+  </div>
+</div>
+<div style="padding-left:25px"></div>
+</ul>
+
+<body style="margin:0">
+  
+  <!--First division-->
+  <div id="firstdivision" style="background-image: url(myheader.jpg); background-size: cover ; height: 350px; padding-top: 20px;text-align: center;">
+
+    <head>
+<style> 
+body {
+  background-image: url("cloud.gif"), url("cloud.gif");
+  background-repeat: no-repeat, repeat;
+  background-color: #cccccc;
+}
+</style>
+</head>
+<body>
+
+</body>
+
+    <img src="yayan.jpg" style="height: 150px; border-radius: 50%;border:3px solid purple;">
+  <h1 style="font-size:40px; font-family:Georgia, serif; color:purple;margin: 20px; ">WELCOME TO AZYAN'S SPACE!</h1>
+  <p style="font-size: 18px; font-family:Georgia, serif; color: purple; ">NURUL AZYAN</p>
+  <p style="font-size: 15px; color: #9F27F3FF; "><a href="#seconddivision">CLICK HERE TO START</a></p>
+  </div>
+
+  <!--Second division-->
+    <img src="family.jpg" style="height:300px; margin: 80px; float: left;"/>
+  <div id="seconddivision" style="height:300px; font-family:Georgia, serif; color: #48006BFF; margin: 100px;">
+  <h1>Family</h1>
+  <p style="line-height:2.0; font-size: 18px; "> I have a big family. I have six siblings, two brothers and four sisters including me. My first brother already married and also the three of my sisters. I have three brothers in law and one sister in law. It is really merry when all of us meet and gather together in one house. I have 12 baby cousins which are 7 nephews and 5 nieces but one of my niece pass away due to accident, and now I have only 11 baby cousins. Since I am their aunt, I treat them like my own children and all of them are so active.
+
+<br>
+</br>
+  <!--Third division-->
+  <img src="mamaayah.jpg" style="height:300px; margin: 80px; float: right;"/>
+  <div id="thirddivision" style="height:300px; font-family:Georgia, serif; margin: 80px;">
+  <div style="text-align: left;">
+  <h1>My Parents</h1>
+  <p style="line-height:2.0; font-size: 18px; ">My mother's name is Adibah Binti Taha. She was born on 16th December 1960. My father's name is Toharudin Bin Abdul Rasid. He was father born on 22nd November 1959. Both of them are from Johor. My mother used to work at Ministry of Education as an officer but after she married my father, she became a full-time housewife. About my father, he just recently retired from military army officer (Air Force). He immediately retired after he turned 60 years old and we moved out from Kuala Lumpur to Seremban. </p>
+
+
+<br>
+</br>
+<!--Fourth division-->
+<img src="siblings.jpg" style="height: 300px; margin: 40px; float: left;"/>
+  <div id="fourthdivision" style="height:300px; margin: 40px;">
+  <h1>Siblings</h1>
+  <p style="line-height:2.0; font-size: 18px; "> I have 2 brothers and 4 sisters including me, the youngest. My first brother have 2 childrens but one of his child pass away. My first sister have 3 sons and one daughter and my second sister have 2 daughters and one son while my third sister has 2 sons and one daughter. About my second brother, he should get married this year but the wedding was on hold since we are in pandemic. Lastly, I'm the only one left in the family. 
+
+<br>
+    <br>
+    <br>
+    <p><button class="w3-button w3-black w3-large" style="line-height: 2.0; color: purple;">End of page <a href="#">Click to go up</a></button></p>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <!--Footer-->
+    <footer>
+    <div style="height:auto; background-color:#E98AFFFF;">
+      <h1 style="color:purple; min-width: 70px; padding:10px; margin:10; font-size: 25px; font-family: sans-serif; border-style: solid;text-align:center;"> Created by Azyan &#x2764;</h1>
+    </div>
+    </footer>
+
+</body>
+</html>
