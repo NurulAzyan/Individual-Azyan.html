@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<title>Azyan. html 2</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/jpg" href="yayan.jpg">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body,h1 {font-family: "Montserrat", sans-serif; background-color: #BD62E6FF;}
+img {margin-bottom: -7px}
+.w3-row-padding img {margin-bottom: 12px}
+</style>
+<body>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-purple w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="file:///C:/Users/User/Desktop/Azyan/IMD%20311/Individual%20Assignment/Azyan.%20html%201.html" class="w3-bar-item w3-button w3-text-white w3-hover-purple">Home</a>
+    <a href="file:///C:/Users/User/Desktop/Azyan/IMD%20311/Individual%20Assignment/Azyan.%20html%201.html#seconddivision" class="w3-bar-item w3-button w3-text-white w3-hover-purple">About me</a>
+    <a href="file:///C:/Users/User/Desktop/Azyan/IMD%20311/Individual%20Assignment/Azyan.%20html%203.html" class="w3-bar-item w3-button w3-text-white w3-hover-purple">Family</a>
+    <a href="file:///C:/Users/User/Desktop/Azyan/IMD%20311/Individual%20Assignment/Azyan.%20html%204.html" class="w3-bar-item w3-button w3-text-white w3-hover-purple">Friends</a>
+    <a href="file:///C:/Users/User/Desktop/Azyan/IMD%20311/Individual%20Assignment/Azyan.%20html%201.html#seventhdivision" class="w3-bar-item w3-button w3-text-white w3-hover-purple">Contact</a>
+  </div>
+</nav>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px; font-family:Georgia, serif; font-size: 20px;">
+
+<!-- Header -->
+<div class="w3-opacity">
+<span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
+<div class="w3-clear"></div>
+<header class="w3-center w3-margin-bottom">
+  <h1><b>Azyan's Gallery</b></h1>
+  <p><b>Hello! Welcome to my gallery.</b></p>
+  <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Click for grid</button></p>
+</header>
+</div>
+
+<!-- Photo Grid -->
+<div class="w3-row" id="myGrid" style="margin-bottom:128px;">
+  <div class="w3-third">
+    <img src="family.jpg" style="width:100%">
+    <img src="myparents.jpg" style="width:100%">
+    <img src="mymom.jpg" style="width:100%">
+    <img src="mydad.jpg" style="width:100%">
+    <img src="mycats.jpg" style="width:100%">
+    <img src="family pic.jpg" style="width:100%">
+    <img src="siblings.jpg" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img src="bestfriend.jpg" style="width:100%">
+    <img src="my trio.jpg" style="width:100%">
+    <img src="08 girls.jpg" style="width:100%">
+    <img src="bb and me.jpg" style="width:100%">
+    <img src="mehuda.jpg" style="width:100%">
+    <img src="uyeen.jpg" style="width:100%">
+    <img src="dijah.jpg" style="width:100%">
+    <img src="Anak buah.jpg" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img src="classmate.jpg" style="width:100%">
+    <img src="kelasku.jpg" style="width:100%">
+    <img src="rumah dr.jpg" style="width:100%">
+    <img src="msu.jpg" style="width:100%">
+    <img src="housemate msu.jpg" style="width:100%">
+    <img src="graduation.jpg" style="width:100%">
+    <img src="broga.jpg" style="width:100%">
+    <img src="ezq.jpg" style="width:100%">
+    <img src="naruto.jpg" style="width:100%">
+    <
+  </div>
+</div>
+
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xxlarge" style="margin-top:100px"> 
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <p class="w3-medium">Created by Azyan</p>
+</footer>
+ 
+<script>
+// Toggle grid padding
+function myFunction() {
+  var x = document.getElementById("myGrid");
+  if (x.className === "w3-row") {
+    x.className = "w3-row-padding";
+  } else { 
+    x.className = x.className.replace("w3-row-padding", "w3-row");
+  }
+}
+
+// Open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.width = "100%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
